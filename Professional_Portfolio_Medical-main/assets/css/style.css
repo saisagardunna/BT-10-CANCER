@@ -1,0 +1,264 @@
+/* navbar styling */
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+.nav-link {
+  font-family: 'roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #f6f8f9;
+}
+
+.nav-link-dark li a {
+  font-family: 'roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: rgb(33, 37, 41);
+}
+
+.size-logo {
+  max-height: 40px;
+}
+
+.bg-color-nav {
+  background-color: rgba(33, 37, 41, 0.7);
+}
+
+/* menu dropdown adapted from https://bootstrap-menu.com/detail-basic-hover.html */
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+/* Landing page */
+
+.banner-image {
+  background: url("../images/hero_surgery.png") center center/cover no-repeat;
+  background-attachment: scroll;
+  height: 90vh;
+}
+
+.width {
+  width: 100%;
+}
+
+.bg-section {
+  background-color: #f8f9fa;
+}
+
+.tagline-format {
+  font-family: 'roboto', sans-serif;
+  text-transform: initial;
+  font-weight: 200;
+  font-size: 40px;
+  color: #f6f8f9;
+}
+
+.name-format {
+  font-family: 'roboto', sans-serif;
+  text-transform: initial;
+  font-weight: 200;
+  font-size: 30px;
+  color: #f6f8f9;
+}
+
+.title-format {
+  font-family: 'roboto', sans-serif;
+  text-transform: initial;
+  font-weight: 200;
+  font-size: 25px;
+  color: #f6f8f9;
+}
+
+/* General styles */
+
+.pg-text-format {
+  font-family: 'roboto', sans-serif;
+  text-transform: initial;
+  font-weight: 300;
+  font-size: 18px;
+  color: rgb(33, 37, 41);
+}
+
+.pg-text-format a {
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+}
+
+.pg-text-format-large {
+  font-family: 'roboto', sans-serif;
+  text-transform: initial;
+  font-weight: 300;
+  font-size: 22px;
+  color: rgb(33, 37, 41);
+}
+
+/* Conditions pages */
+
+
+.hearing-image {
+  background: url("../images/ear_3.jpg") center center/cover no-repeat;
+  background-attachment: scroll;
+  height: 70vh;
+}
+
+.headache-image {
+  background: url("../images/headache.jpg") center center/cover no-repeat;
+  background-attachment: scroll;
+  height: 70vh;
+}
+
+.eye-image {
+  background: url("../images/confused.jpg") center center/cover no-repeat;
+  background-attachment: scroll;
+  height: 70vh;
+}
+
+.eye-2-image {
+  background: url("../images/eye_4.jpg") center center/cover no-repeat;
+  background-attachment: scroll;
+  height: 70vh;
+}
+
+.headache-woman-image {
+  background: url("../images/headache-woman.jpg") center center/cover no-repeat;
+  background-attachment: scroll;
+  height: 70vh;
+}
+
+/* Research page */
+
+video {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.float-right {
+  position: absolute;
+}
+
+
+/* Fix to avoid overlay with navbar */
+
+.padding-top {
+  padding-top: 80px;
+}
+
+/* Contact page */
+
+.form-section {
+  background: url("../images/stethoscope.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.signup-form {
+  margin-top: 80px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.8);
+  max-width: 400px;
+  border-radius: 10px;
+  left: 10%;
+  padding: 30px;
+}
+
+.signup-form h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #ccccce;
+  border-radius: 5px;
+}
+
+.text-input:hover {
+  border-color: rgb(33, 37, 41);
+}
+
+.text-input2:hover {
+  border-color: rgb(33, 37, 41);
+}
+
+.contact-form {
+  font-family: 'roboto', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #f6f8f9;
+}
+
+.contact-form2 {
+  font-family: 'roboto', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #f6f8f9;
+}
+
+.contact-form3 {
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(12, 12, 12);
+}
+
+.info-page-title {
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: rgb(12, 12, 12);
+}
+
+/* Fix to horizontally align 'read more' buttons */
+
+.min-height {
+  min-height: 200px;
+}
+
+/* Footer page styling */
+
+.footer-logo {
+  height: 50px;
+}
+
+.footer-copyright {
+  font-family: 'roboto', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: rgb(59, 59, 59);
+}
+
+.credit-text {
+  font-family: 'roboto', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: rgb(59, 59, 59);
+}
+
